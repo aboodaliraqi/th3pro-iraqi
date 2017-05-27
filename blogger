@@ -1,3 +1,23 @@
-//<![CDATA[
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0.8=b(){c a=e.f("6");7(a==h){0.9.1="2://3.4.5/"};a.g("1","2://3.4.5/");a.d="تصميم : برو عراقي"};',18,18,'window|href|http|blogproiraqi|blogspot|com|pro1iq|if|onload|location||function|var|innerHTML|document|getElementById|setAttribute|null'.split('|'),0,{}))
-//]]>
+window.onload = function(){ 	
+    var copy=document.getElementById("pro1iq"); 
+    if(copy==null){	
+		function Myfunc() {window.location.href="http://blogproiraqi.blogspot.com/";};
+		setTimeout(function() {Myfunc()}, 1000);		
+		var happy = $("body").remove();
+	
+		if(happy==happy) {
+			document.write("<div class='mm' style='margin: auto;width: 800px;text-align: center;font-family: tahoma;background: #72b9f7;color: #fff;font-size: 23px;padding: 33px;border: dotted 3px #fff;border-top: none;border-radius: 0 0 10px 10px;'>تم التلاعب فى الحقوق لذلك سوف يتم إعادة التوجيه بعد دقيقة 😃😊😏😒😡 <a style='font-size: 256px;'>👿</a></div>")
+			$(".mm").prependTo("html");
+		    $("html").css({"backgroung":"#000"});
+		};
+		
+		}else  {
+			
+		copy.style.display    = "block";
+		copy.style.visibility = "visible";
+			
+		}
+			
+    copy.setAttribute("href","http://blogproiraqi.blogspot.com/");
+    copy.innerHTML="تصميم : برو عراقي";
+};
